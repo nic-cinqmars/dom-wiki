@@ -1,5 +1,333 @@
 [
   {
+    "itemName": "Circle Test Sword",
+    "rarity": "Untiered",
+    "image": "/images/items/CircleTestSword.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Sword",
+    "description": "Sword used for testing projectiles with circling shot pattern.",
+    "rateOfFire": 1,
+    "numProjectiles": 1,
+    "equipStats": {}
+  },
+  {
+    "itemName": "Shadow Visage",
+    "rarity": "Legendary",
+    "image": "/images/items/ShadowVisage.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ability/Mask",
+    "description": "The pale face of the Kage Kami stretched across a slab of petrified wood. Running your fingers across its skin makes your soul shiver.",
+    "equipStats": {
+      "hp": 90,
+      "mp": 90,
+      "spd": 6,
+      "vit": 6
+    },
+    "fameBonus": 7,
+    "itemEffect": "155"
+  },
+  {
+    "itemName": "Scarlet Ribcage",
+    "rarity": "Untiered",
+    "image": "/images/items/ScarletRibcage.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ability/Orb",
+    "description": "The hallowed chest cavity of one of the Screecher's hatchlings. The weight of your actions makes you sick to your stomach.",
+    "equipStats": {
+      "hp": 40,
+      "vit": 6,
+      "atk": 5
+    },
+    "fameBonus": 6
+  },
+  {
+    "itemName": "Scarlet Prism",
+    "rarity": "Legendary",
+    "image": "/images/items/ScarletPrism.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ability/Prism",
+    "description": "A dull-looking prism adorned with the bloodied feathers of the Scarlet Screecher.",
+    "equipStats": {
+      "hp": 80,
+      "mp": 40,
+      "atk": 8,
+      "dex": 4
+    },
+    "fameBonus": 7,
+    "itemEffect": "154"
+  },
+  {
+    "itemName": "Ravager's Talon",
+    "rarity": "Legendary",
+    "image": "/images/items/RavagersTalon.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Dagger",
+    "description": "A cruel claw, used to tear apart wildlife and humans alike.",
+    "rateOfFire": 1,
+    "numProjectiles": 1,
+    "equipStats": {},
+    "fameBonus": 7,
+    "itemEffect": "3"
+  },
+  {
+    "itemName": "Awoken Hunter's Ballista",
+    "rarity": "Untiered",
+    "tier": 5,
+    "image": "/images/items/AwokenHuntersBallista.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Bow",
+    "description": "A magical ballista used by hunters to bombard their foes with a wave of powerful arrows. The relic has pushed the Hunter's magic further than previously thought possible.",
+    "rateOfFire": 1.25,
+    "numProjectiles": 2,
+    "arcGap": 7,
+    "equipStats": {},
+    "fameBonus": 8
+  },
+  {
+    "itemName": "Awoken Hunter's Baton",
+    "rarity": "Untiered",
+    "tier": 5,
+    "image": "/images/items/AwokenHuntersBaton.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Wand",
+    "description": "A magical baton used by hunters to conjure spells to destroy their foes. The relic has pushed the Hunter's magic further than previously thought possible.",
+    "rateOfFire": 1.25,
+    "numProjectiles": 2,
+    "arcGap": 6,
+    "equipStats": {},
+    "fameBonus": 8
+  },
+  {
+    "itemName": "Awoken Hunter's Shiv",
+    "rarity": "Untiered",
+    "tier": 5,
+    "image": "/images/items/AwokenHuntersShiv.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Dagger",
+    "description": "A magical shiv used by hunters to tear their foes to shreds. The relic has pushed the Hunter's magic further than previously thought possible.",
+    "rateOfFire": 1.25,
+    "numProjectiles": 2,
+    "arcGap": 8,
+    "equipStats": {},
+    "fameBonus": 8
+  },
+  {
+    "itemName": "Awoken Hunter's Glaive",
+    "rarity": "Untiered",
+    "tier": 5,
+    "image": "/images/items/AwokenHuntersGlaive.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Sword",
+    "description": "A magical glaive used by hunters to decimate their foes. The relic has pushed the Hunter's magic further than previously thought possible.",
+    "rateOfFire": 1.25,
+    "numProjectiles": 2,
+    "arcGap": 10,
+    "equipStats": {},
+    "fameBonus": 8
+  },
+  {
+    "itemName": "Awoken Hunter's Truncheon",
+    "rarity": "Untiered",
+    "tier": 5,
+    "image": "/images/items/AwokenHuntersTruncheon.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Staff",
+    "description": "A magical truncheon used by hunters to obliterate their foes with powerful spells. The relic has pushed the Hunter's magic further than previously thought possible.",
+    "rateOfFire": 1,
+    "numProjectiles": 3,
+    "arcGap": 2,
+    "equipStats": {},
+    "fameBonus": 8
+  },
+  {
+    "itemName": "Awoken Hunter's Saber",
+    "rarity": "Untiered",
+    "tier": 5,
+    "image": "/images/items/AwokenHuntersSaber.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Katana",
+    "description": "A magical saber used by hunters to dismember their foes. The relic has pushed the Hunter's magic further than previously thought possible.",
+    "rateOfFire": 1,
+    "numProjectiles": 3,
+    "arcGap": 5,
+    "equipStats": {},
+    "fameBonus": 8
+  },
+  {
+    "itemName": "Monkey's Paw",
+    "rarity": "Legendary",
+    "image": "/images/items/MonkeysPaw.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Potion",
+    "description": "What price are you willing to pay for your wishes?",
+    "equipStats": {}
+  },
+  {
+    "itemName": "Lucky Medal",
+    "rarity": "Legendary",
+    "image": "/images/items/LuckyMedal.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Material",
+    "description": "Shiny golden medal in the shape of a four-leaf clover, you can attach it to your armor for better luck.",
+    "equipStats": {},
+    "itemEffect": "152"
+  },
+  {
+    "itemName": "Dragon Tooth Necklace",
+    "rarity": "Legendary",
+    "image": "/images/items/DragonToothNecklace.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ring",
+    "description": "Teeth of a fire dragon who used to protect the entrance to old caves, where ancient civilizations first found fire magic.",
+    "equipStats": {
+      "wis": 25,
+      "atk": 10,
+      "dex": 10
+    },
+    "fameBonus": 7,
+    "itemEffect": "151"
+  },
+  {
+    "itemName": "Angel's Robes",
+    "rarity": "Legendary",
+    "image": "/images/items/AngelsRobes.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Armor/Robe",
+    "description": "This robe used to be worn by one of the popes of the God's Church. It is made out of a weird material that they called Angel's Skin.",
+    "equipStats": {
+      "hp": 120,
+      "spd": 15,
+      "wis": 15,
+      "def": 16
+    },
+    "fameBonus": 7,
+    "itemEffect": "150"
+  },
+  {
+    "itemName": "Assassin's Teapot",
+    "rarity": "Legendary",
+    "image": "/images/items/AssassinsTeapot.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ability/Poison",
+    "description": "A deviously designed teapot, filled with both a highly dangerous poison and a rejuvenating beverage, encased in separate compartments.",
+    "equipStats": {
+      "hp": 120,
+      "mp": 80,
+      "vit": 4
+    },
+    "fameBonus": 7,
+    "itemEffect": "149"
+  },
+  {
+    "itemName": "Gnome Hat",
+    "rarity": "Legendary",
+    "image": "/images/items/GnomeHat.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ring",
+    "description": "Think twice before wearing this, because if you do, then there is no coming back. You will become one of them forever and you will see them everywhere.",
+    "equipStats": {
+      "mp": 140,
+      "spd": 20,
+      "wis": 20
+    },
+    "fameBonus": 7,
+    "itemEffect": "148"
+  },
+  {
+    "itemName": "Crosswind",
+    "rarity": "Legendary",
+    "image": "/images/items/Crosswind.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Bow",
+    "description": "Powerful bow passed through generations of elvish archers, who honed its power by enchanting it with countless runes over the ages. This bow is famous for its destructive power capable of creating whirlwinds arround its arrows.",
+    "rateOfFire": 0.9,
+    "numProjectiles": 1,
+    "equipStats": {
+      "mp": 60,
+      "wis": 8
+    },
+    "fameBonus": 7,
+    "itemEffect": "147"
+  },
+  {
+    "itemName": "Eclipse Crown",
+    "rarity": "Legendary",
+    "image": "/images/items/EclipseCrown.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ability/Helm",
+    "description": "Stolen from the head of a dying Queen of the Moon many ages ago. This crown was once a famous relic that was given to all of the previous queens, however after being stolen, everyone had forgotten about it.",
+    "equipStats": {
+      "spd": 15,
+      "dex": 15
+    },
+    "fameBonus": 7,
+    "itemEffect": "0"
+  },
+  {
+    "itemName": "Destructive Sphere",
+    "rarity": "Legendary",
+    "image": "/images/items/DestructiveSphere.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Wand",
+    "description": "Thin wooden wand that holds a crystal sphere which was tuned to cast explosions with a small delay, to protect the user from the enormous damage that this wand is capable of doing.",
+    "rateOfFire": 0.5,
+    "numProjectiles": 1,
+    "equipStats": {},
+    "fameBonus": 7,
+    "itemEffect": "3"
+  },
+  {
+    "itemName": "Shiny Diamond Sword",
+    "rarity": "Legendary",
+    "image": "/images/items/ShinyDiamondSword.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Weapon/Sword",
+    "description": "You may not be the strongest, but until the very last moment you will shine amongst others like a star.",
+    "rateOfFire": 1,
+    "numProjectiles": 1,
+    "equipStats": {},
+    "fameBonus": 25,
+    "itemEffect": "146"
+  },
+  {
+    "itemName": "Merlin's Cloak",
+    "rarity": "Legendary",
+    "image": "/images/items/MerlinsCloak.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Ability/Cloak",
+    "description": "One outstanding magician discovered a way to share magical power with even those who are naturally unable to cast any magic. His discovery has led to this cloak being created, which allows the user to hide their presence as long as they have enough magic.",
+    "equipStats": {
+      "wis": 14,
+      "dex": 10
+    },
+    "fameBonus": 7,
+    "itemEffect": "145"
+  },
+  {
+    "itemName": "Main Character's Garments",
+    "rarity": "Legendary",
+    "image": "/images/items/MainCharactersGarments.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Armor/Leather",
+    "description": "At first glance you might not notice anything special about these garments, because they look just generic, but if you tried wearing these just for a bit, you'd immediately feel the power hidden within.",
+    "equipStats": {
+      "hp": 200,
+      "spd": 12,
+      "def": 18
+    },
+    "fameBonus": 7,
+    "itemEffect": "144"
+  },
+  {
+    "itemName": "Anschutz' Watch",
+    "rarity": "Legendary",
+    "image": "/images/items/AnschutzWatch.png",
+    "bagImage": "/images/LootBag13.png",
+    "category": "Potion",
+    "description": "An old expensive watch that Anschutz' stole from a jewelry store. He is selling it now because he broke it.",
+    "equipStats": {}
+  },
+  {
     "itemName": "The Hare's Shroud",
     "rarity": "Easter Legendary",
     "image": "/images/items/TheHaresShroud.png",
@@ -102,7 +430,7 @@
     "arcGap": 2,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "83"
   },
   {
     "itemName": "Springtime Shroud",
@@ -116,7 +444,7 @@
       "atk": 10
     },
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "118"
   },
   {
     "itemName": "Rabbit's Lucky Charm",
@@ -145,7 +473,7 @@
       "def": -10
     },
     "fameBonus": 7,
-    "itemEffect": "4"
+    "itemEffect": "168"
   },
   {
     "itemName": "Queen's Ears",
@@ -190,7 +518,7 @@
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "96"
   },
   {
     "itemName": "Chocolate Wand",
@@ -257,7 +585,9 @@
     "category": "Ability/Tome",
     "description": "Evil book made out of demon flesh filled with mysterious manuscripts written by the beings from Underworld.",
     "equipStats": {
+      "hp": -50,
       "vit": 10,
+      "wis": 10,
       "atk": 10
     },
     "fameBonus": 7,
@@ -272,10 +602,10 @@
     "description": "Sharp blade of this katana has killed a lot of goblins, this deadly weapon was created only for one purpose.",
     "rateOfFire": 1,
     "numProjectiles": 2,
-    "arcGap": 20,
+    "arcGap": 10,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "89"
   },
   {
     "itemName": "Champion's Carrot",
@@ -300,7 +630,7 @@
     "rateOfFire": 1.35,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "104"
   },
   {
     "itemName": "Eggscalibur",
@@ -316,7 +646,7 @@
       "dex": 4
     },
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "67"
   },
   {
     "itemName": "Eggshell Plate",
@@ -357,7 +687,7 @@
       "mp": 95,
       "wis": 10
     },
-    "fameBonus": 5,
+    "fameBonus": 7,
     "itemEffect": "0"
   },
   {
@@ -370,7 +700,7 @@
     "rateOfFire": 1.5,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "91"
   },
   {
     "itemName": "Eggcatcher Trap",
@@ -412,6 +742,7 @@
     "description": "This helm was forged of metal that fell from the sky. It is strangely light and emits a faint hum.",
     "equipStats": {
       "spd": 10,
+      "dex": 5,
       "def": 10
     },
     "fameBonus": 7,
@@ -425,9 +756,9 @@
     "category": "Ability/Seal",
     "description": "A seal that is said to briefly borrow the power of the Gods themselves. Some Paladins shun its dark power, others embrace it.",
     "equipStats": {
-      "hp": 80,
-      "spd": 11,
-      "def": 8
+      "spd": 12,
+      "atk": 8,
+      "def": 12
     },
     "fameBonus": 7,
     "itemEffect": "4"
@@ -539,7 +870,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggBunny3.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -548,7 +879,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggBunny2.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -557,7 +888,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggBunny1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -566,7 +897,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggBowTie3.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -575,7 +906,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggBowTie2.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -584,7 +915,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggBowTie1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -593,7 +924,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggPolkaDot3.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -602,7 +933,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggPolkaDot2.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -611,7 +942,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggPolkaDot1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -620,7 +951,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggZigZag3.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -629,7 +960,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggZigZag2.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -638,7 +969,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggZigZag1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -647,7 +978,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggStriped3.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -656,7 +987,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggStriped2.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -665,7 +996,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EasterEggStriped1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A colored egg, stolen from the bunnies. You might be able to do something with this once you collect enough.",
     "equipStats": {}
   },
@@ -674,7 +1005,7 @@
     "rarity": "Untiered",
     "image": "/images/items/MagicianBunny.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "I guess they lied about the 'magician' part, this bunny doesn't know any magic tricks whatsoever.",
     "equipStats": {}
   },
@@ -683,7 +1014,7 @@
     "rarity": "Untiered",
     "image": "/images/items/MagiciansHatNormal.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A completely ordinary hat, you can probably fit a bunny inside and that's about it.",
     "equipStats": {}
   },
@@ -692,7 +1023,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PinkLace.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A magical lace that was stolen from a mediocre magician, you feel as if you can wrap it around some hat.",
     "equipStats": {}
   },
@@ -701,7 +1032,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrownLace.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A magical lace that was stolen from a mediocre magician, you feel as if you can wrap it around some hat.",
     "equipStats": {}
   },
@@ -710,7 +1041,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RedLace.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A magical lace that was stolen from a mediocre magician, you feel as if you can wrap it around some hat.",
     "equipStats": {}
   },
@@ -719,7 +1050,7 @@
     "rarity": "Untiered",
     "image": "/images/items/YellowLace.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A magical lace that was stolen from a mediocre magician, you feel as if you can wrap it around some hat.",
     "equipStats": {}
   },
@@ -728,7 +1059,7 @@
     "rarity": "Untiered",
     "image": "/images/items/GreenLace.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A magical lace that was stolen from a mediocre magician, you feel as if you can wrap it around some hat.",
     "equipStats": {}
   },
@@ -737,7 +1068,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WhiteLace.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A magical lace that was stolen from a mediocre magician, you feel as if you can wrap it around some hat.",
     "equipStats": {}
   },
@@ -851,20 +1182,20 @@
   },
   {
     "itemName": "Relic of Awakening",
-    "rarity": "Untiered",
+    "rarity": "Legendary",
     "image": "/images/items/RelicofAwakening.png",
     "bagImage": "/images/LootBag13.png",
     "category": "Potion",
-    "description": "A legendary relic found in the ruins of an ancient civilization. I'm not sure how Anschutz' got ahold of something like this.",
+    "description": "A legendary relic, holding power that mere mortals could only dream of possessing. Combining this with a compatible Legendary item at the forge will awaken it.",
     "equipStats": {}
   },
   {
     "itemName": "Essence of Awakening",
-    "rarity": "Untiered",
+    "rarity": "Legendary",
     "image": "/images/items/EssenceofAwakening.png",
     "bagImage": "/images/LootBag13.png",
     "category": "Potion",
-    "description": "A mystical essence once used by an ancient civilization and thought to have been lost forever. I'm not sure how Anschutz' got ahold of something like this.",
+    "description": "A mystical essence once used by an ancient civilization, thought to have been lost forever. Combining this with an Awoken Legendary at the forge will increase its power.",
     "equipStats": {}
   },
   {
@@ -942,7 +1273,7 @@
     "image": "/images/items/ExceptionalLootPotion.png",
     "bagImage": "/images/LootBag13.png",
     "category": "Potion",
-    "description": "A majestic and brimming potion that permanently grants your character +1 loot boost, up to a maximum of 10.",
+    "description": "A majestic and brimming potion that permanently grants your character +2 loot boost, up to a maximum of 10.",
     "equipStats": {}
   },
   {
@@ -951,7 +1282,7 @@
     "image": "/images/items/OverflowingLootPotion.png",
     "bagImage": "/images/LootBag13.png",
     "category": "Potion",
-    "description": "A potion that causes enemies to drop EVEN MORE loot!? Lasts 30 minutes.",
+    "description": "A potion that causes enemies to drop EVEN MORE loot!? Lasts 30 minutes.\\nWARNING! If you have a weaker loot drop potion effect running, the timer will be reset to 180 min.",
     "equipStats": {}
   },
   {
@@ -1083,7 +1414,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CorruptedBrooch1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Brooch that used to look gold is now covered in King's Madness, making it undesirable.",
     "equipStats": {}
   },
@@ -1092,7 +1423,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CorruptedCloth1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Tattered and completely destroyed piece of cloth that burns your hands when you hold it.",
     "equipStats": {}
   },
@@ -1101,7 +1432,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CorruptedPage1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Page drowned in the madness of The King. All of the letters have been scrambled making it unreadable.",
     "equipStats": {}
   },
@@ -1110,7 +1441,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WaterFlowerPetal1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Small petal of a blue flower that consists mostly of water.",
     "equipStats": {}
   },
@@ -1119,7 +1450,7 @@
     "rarity": "Untiered",
     "image": "/images/items/NatureDragonsBreath1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Green flame breath of an immortal nature dragon, despite his nature he can also bring death upon humans.",
     "equipStats": {}
   },
@@ -1128,7 +1459,7 @@
     "rarity": "Untiered",
     "image": "/images/items/StoneFlower1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Small rock from The Eternal One's garden, where all sorts of flowers grow and bloom for eternity.",
     "equipStats": {}
   },
@@ -1137,7 +1468,7 @@
     "rarity": "Untiered",
     "image": "/images/items/FireDragonScales1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Hard and resistant to cold temperatures, these scales could very well be used to forge strong weaponry.",
     "equipStats": {}
   },
@@ -1146,7 +1477,7 @@
     "rarity": "Untiered",
     "image": "/images/items/IronBrooch1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Tiny iron brooch with a small topaz put into it, this brooch is given to all outstanding wizards in the castle.",
     "equipStats": {}
   },
@@ -1155,7 +1486,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DragonAsh1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Leftovers of a fire dragon that you just fought. It's like a really hot sand that ignites when you collect enough of it.",
     "equipStats": {}
   },
@@ -1164,7 +1495,7 @@
     "rarity": "Untiered",
     "image": "/images/items/LostPageI1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "\"Even though exiled and forgotten, his loyalty was strong. And he ought to protect the kingdom where nobody waits for him.\"",
     "equipStats": {}
   },
@@ -1173,7 +1504,7 @@
     "rarity": "Untiered",
     "image": "/images/items/LostPageII1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "\"It is sad fate that he had to bear, even after his death, nobody remembered him and his efforts were all for naught.\"",
     "equipStats": {}
   },
@@ -1182,7 +1513,7 @@
     "rarity": "Untiered",
     "image": "/images/items/LostPageIII1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A tattered piece of paper, the text starts out written with ink, but halfway through the ink is replaced with blood... \"These pages will bear his legacy, and one day someone might find them and tell the world about a hero who he was.\"",
     "equipStats": {}
   },
@@ -1255,7 +1586,6 @@
     "category": "Ability/Tome",
     "description": "A book written by the Monardian King during his descent into madness. It starts off promising, but slowly devolves into insane ramblings and nonsense.",
     "equipStats": {
-      "mp": -100,
       "wis": 20,
       "dex": 16
     },
@@ -1315,7 +1645,7 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Katana",
     "description": "A katana crafted by a dragonborn swordsmith from the east, designed for beheading prisoners. Its lightweight appearance is a facade, as the blade itself is much heavier than one would expect from a mere glance.",
-    "rateOfFire": 0.7,
+    "rateOfFire": 0.65,
     "equipStats": {
       "spd": 8,
       "wis": 12
@@ -1578,11 +1908,9 @@
     "category": "Ring",
     "description": "The manifestation of pure madness. No mortal may wear this crest without losing themselves and everything they hold dear.",
     "equipStats": {
-      "hp": 70,
+      "hp": 100,
       "wis": 50,
-      "atk": 60,
-      "dex": -10,
-      "def": -10
+      "atk": 50
     },
     "fameBonus": 9,
     "itemEffect": "61"
@@ -1597,10 +1925,10 @@
     "numProjectiles": 3,
     "arcGap": 9,
     "equipStats": {
-      "hp": 250,
+      "hp": 200,
       "mp": 150,
-      "vit": 20,
-      "wis": 15,
+      "vit": 10,
+      "wis": 10,
       "def": 15
     },
     "fameBonus": 9,
@@ -1656,7 +1984,7 @@
     "category": "Ability/Helm",
     "description": "Handcrafted by the forest witch as a gift for her loyal guardian. It is adorned with both beautiful autumn leaves and created from the strongest wood around.",
     "equipStats": {
-      "vit": 15,
+      "vit": 6,
       "dex": 6,
       "def": 15
     },
@@ -1704,7 +2032,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "73"
   },
   {
     "itemName": "Oath of Cinder",
@@ -1714,9 +2042,9 @@
     "category": "Ability/Seal",
     "description": "A crude wooden seal carved out of the flesh of the Withered God. Their spirit now resides within, vowing to burn the realm to ashes.",
     "equipStats": {
-      "hp": 120,
-      "wis": 10,
-      "dex": 10
+      "hp": 105,
+      "wis": 8,
+      "dex": 8
     },
     "fameBonus": 7,
     "itemEffect": "0"
@@ -1897,7 +2225,7 @@
     "rateOfFire": 1.5,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "91"
   },
   {
     "itemName": "Gentleman's Top Hat",
@@ -1925,7 +2253,7 @@
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "96"
   },
   {
     "itemName": "Christmas Song",
@@ -1935,10 +2263,10 @@
     "category": "Ability/Spell",
     "description": "Festive spell used by Santa Сlaus' orchestra, it casts strong spells with a beautiful sound of Christmas Bells.",
     "equipStats": {
-      "mp": 185,
-      "wis": 15
+      "mp": 95,
+      "wis": 10
     },
-    "fameBonus": 5,
+    "fameBonus": 7,
     "itemEffect": "0"
   },
   {
@@ -1954,7 +2282,7 @@
       "def": -10
     },
     "fameBonus": 7,
-    "itemEffect": "4"
+    "itemEffect": "168"
   },
   {
     "itemName": "Green Santa Hat",
@@ -2011,10 +2339,10 @@
     "description": "Orb that could freeze the soul of a living being. It contains power that is only found in the coldest places of the North Pole.",
     "equipStats": {
       "hp": 100,
-      "atk": 10
+      "vit": 10
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "7"
   },
   {
     "itemName": "Ring of the New Sun",
@@ -2034,7 +2362,7 @@
       "def": 6
     },
     "fameBonus": 11,
-    "itemEffect": "5"
+    "itemEffect": "0"
   },
   {
     "itemName": "Robe of Celebration",
@@ -2075,11 +2403,11 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Wand",
     "description": "This magic wand was crafted to celebrate a bond between humans and gods and for that every god was asked to put a little of their power into it, to make this bond last.",
-    "rateOfFire": 1.15,
+    "rateOfFire": 1.1,
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 8,
-    "itemEffect": "7"
+    "itemEffect": "111"
   },
   {
     "itemName": "Santa's Battlesuit",
@@ -2108,7 +2436,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "106"
   },
   {
     "itemName": "Reindeer Helmet",
@@ -2119,6 +2447,7 @@
     "description": "Wooden helm with large reindeer antlers, decorated with a bunch of magical ornaments.",
     "equipStats": {
       "spd": 10,
+      "dex": 5,
       "def": 10
     },
     "fameBonus": 7,
@@ -2135,7 +2464,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "69"
   },
   {
     "itemName": "Covering of Winter Goddess",
@@ -2181,7 +2510,7 @@
       "dex": 4
     },
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "67"
   },
   {
     "itemName": "Star of the North Pole",
@@ -2190,14 +2519,14 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Wand",
     "description": "A bright star that appears for Christmas to shine with its warm light. It's light has been burnt into this candy cane wand.",
-    "rateOfFire": 1.11,
+    "rateOfFire": 1,
     "numProjectiles": 3,
-    "arcGap": 3,
+    "arcGap": 2,
     "equipStats": {
       "wis": 20
     },
     "fameBonus": 8,
-    "itemEffect": "3"
+    "itemEffect": "108"
   },
   {
     "itemName": "Christmas Garments",
@@ -2222,9 +2551,9 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Staff",
     "description": "A very cold staff that causes snowfall in any weather. It came somewhere from the North during a horrible storm and its origin is unknown.",
-    "rateOfFire": 1,
+    "rateOfFire": 0.85,
     "numProjectiles": 3,
-    "arcGap": 3,
+    "arcGap": 1,
     "equipStats": {},
     "fameBonus": 7,
     "itemEffect": "6"
@@ -2237,8 +2566,8 @@
     "category": "Ring",
     "description": "Ring that gains power from the unending tradition of humans. Every December this ring glows with the shiniest light that cheers everyone up.",
     "equipStats": {
-      "hp": 200,
-      "mp": 200,
+      "hp": 175,
+      "mp": 175,
       "spd": 7,
       "vit": 7,
       "wis": 7,
@@ -2247,7 +2576,7 @@
       "def": 7
     },
     "fameBonus": 9,
-    "itemEffect": "0"
+    "itemEffect": "164"
   },
   {
     "itemName": "Merrystone",
@@ -2275,7 +2604,7 @@
     "equipStats": {
       "mp": 120,
       "spd": -10,
-      "wis": 14,
+      "wis": 20,
       "atk": 17,
       "def": 45
     },
@@ -2290,7 +2619,7 @@
     "category": "Ability/Quiver",
     "description": "A mysterious quiver decorated like a Christmas Tree. Its existence boosts your holiday spirit when drawn.",
     "numProjectiles": 5,
-    "arcGap": 8,
+    "arcGap": 3,
     "equipStats": {
       "hp": 80,
       "spd": 8,
@@ -2310,7 +2639,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "87"
   },
   {
     "itemName": "Chocolate Cookie",
@@ -2320,9 +2649,9 @@
     "category": "Ability/Seal",
     "description": "A seal that is said to be able to summon Santa Claus. Works only during December though.",
     "equipStats": {
-      "hp": 80,
-      "spd": 11,
-      "def": 8
+      "spd": 12,
+      "atk": 8,
+      "def": 12
     },
     "fameBonus": 7,
     "itemEffect": "4"
@@ -2338,7 +2667,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "4"
+    "itemEffect": "81"
   },
   {
     "itemName": "Iron Dragon Coin",
@@ -2426,6 +2755,7 @@
     "equipStats": {
       "hp": 60,
       "mp": 160,
+      "wis": 9,
       "atk": 18,
       "dex": 14,
       "def": 28
@@ -2542,7 +2872,7 @@
       "def": 12
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "129"
   },
   {
     "itemName": "Witch's Wand",
@@ -2555,7 +2885,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "106"
   },
   {
     "itemName": "Pumpkin Smasher",
@@ -2577,12 +2907,12 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Staff",
     "description": "Old staff made of haunted wood during the first ever Halloween, to this day it burns with a yellow flame.",
-    "rateOfFire": 1.5,
+    "rateOfFire": 1.4,
     "numProjectiles": 2,
     "arcGap": 9,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "98"
   },
   {
     "itemName": "Pumpking's Bow",
@@ -2591,7 +2921,7 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Bow",
     "description": "This bow is said to extend Halloween by 1 day for every arrow fired from it.",
-    "rateOfFire": 0.36,
+    "rateOfFire": 0.34,
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
@@ -2735,7 +3065,7 @@
     "image": "/images/items/PotionofAnger.png",
     "bagImage": "/images/LootBag13.png",
     "category": "Potion",
-    "description": "Potion that insantly makes you want to break everything around you.",
+    "description": "Potion that instantly makes you want to break everything around you.",
     "equipStats": {}
   },
   {
@@ -2768,7 +3098,7 @@
       "atk": 14
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "122"
   },
   {
     "itemName": "Oracle's Wand",
@@ -2777,11 +3107,11 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Wand",
     "description": "Wand that was used by the high priestesses to channel our world with the world of gods to seek for a prophecy.",
-    "rateOfFire": 1.15,
+    "rateOfFire": 1.1,
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 8,
-    "itemEffect": "7"
+    "itemEffect": "111"
   },
   {
     "itemName": "Forest Token",
@@ -2801,7 +3131,11 @@
     "description": "The most powerful tribesmen who used to rule the lands of the Realm one day got striked by Oryx's army, only few survived and they had to make a mask that would fear Oryx and defeat him.",
     "numProjectiles": 2,
     "arcGap": 9,
-    "equipStats": {},
+    "equipStats": {
+      "spd": 15,
+      "atk": 10,
+      "dex": 10
+    },
     "fameBonus": 7,
     "itemEffect": "4"
   },
@@ -2874,7 +3208,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "106"
   },
   {
     "itemName": "Blue Poker Chip",
@@ -2984,7 +3318,7 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Dagger",
     "description": "Knife carved out of fine logs of a cherry blossom and decorated with its pink flowers to symbolize a butterfly.",
-    "rateOfFire": 0.55,
+    "rateOfFire": 0.33,
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
@@ -3041,19 +3375,19 @@
     "itemEffect": "44"
   },
   {
-    "itemName": "Face of Hades",
+    "itemName": "Face of Gluttony",
     "rarity": "Demonic",
-    "image": "/images/items/FaceofHades.png",
+    "image": "/images/items/FaceofGluttony.png",
     "bagImage": "/images/LootBag13.png",
     "category": "Ability/Mask",
-    "description": "His tortured profile was masterfully carved into this mask made of flesh.",
+    "description": "A warped icon of pure gluttony, its teeth stained with gore. One whiff of its breath could kill an ogre.",
     "equipStats": {
-      "spd": 15,
-      "atk": 15,
-      "dex": 15
+      "hp": 225,
+      "spd": 20,
+      "atk": 5
     },
     "fameBonus": 9,
-    "itemEffect": "45"
+    "itemEffect": "156"
   },
   {
     "itemName": "Flame of Misery",
@@ -3064,7 +3398,7 @@
     "description": "The green bright flames of this trap only remind you of your sins.",
     "equipStats": {
       "spd": 5,
-      "atk": 15,
+      "atk": 20,
       "def": 15
     },
     "fameBonus": 9,
@@ -3092,8 +3426,8 @@
     "description": "A mere shard that fell from the core of Hell. It constantly bursts into flames releasing massive amounts of magic energy from its endless supply.",
     "equipStats": {
       "mp": 85,
-      "spd": 14,
-      "dex": 14
+      "dex": 14,
+      "def": 14
     },
     "fameBonus": 7,
     "itemEffect": "5"
@@ -3147,11 +3481,11 @@
     "category": "Ability/Skull",
     "description": "Skull carved to resemble a helmet. It's soaked with blood inside.",
     "numProjectiles": 5,
-    "arcGap": 12,
+    "arcGap": 10,
     "equipStats": {
-      "hp": 90,
-      "spd": -8,
-      "wis": -12
+      "hp": 70,
+      "spd": 9,
+      "def": 9
     },
     "fameBonus": 5
   },
@@ -3167,7 +3501,7 @@
     "arcGap": 10,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "75"
   },
   {
     "itemName": "Hell Raid Key Admin",
@@ -3201,7 +3535,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BookwormsHat1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Hat worn by the last of the ink magicians.",
     "equipStats": {}
   },
@@ -3210,7 +3544,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WolfSpirit1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Head of an ink wolf that still burns with its spirit.",
     "equipStats": {}
   },
@@ -3219,7 +3553,7 @@
     "rarity": "Untiered",
     "image": "/images/items/InkJar1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A small jar filled with ink that was used to practice ink magic.",
     "equipStats": {}
   },
@@ -3295,14 +3629,14 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Wand",
     "description": "Incredibly long research and one thousand years worth of knowledge were all spent studying to finally create this wand.",
-    "rateOfFire": 1.11,
+    "rateOfFire": 1,
     "numProjectiles": 3,
-    "arcGap": 3,
+    "arcGap": 2,
     "equipStats": {
       "wis": 20
     },
     "fameBonus": 8,
-    "itemEffect": "3"
+    "itemEffect": "108"
   },
   {
     "itemName": "Knightfall",
@@ -3430,8 +3764,8 @@
     "category": "Ability/Skull",
     "description": "The Skull of a seaborn monster from deep below.",
     "equipStats": {
-      "hp": 70,
-      "mp": 70
+      "hp": 145,
+      "def": 11
     },
     "fameBonus": 7,
     "itemEffect": "3"
@@ -3443,12 +3777,12 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Staff",
     "description": "A Tidecallers staff said to bring calamities upon nations.",
-    "rateOfFire": 1.5,
+    "rateOfFire": 1.4,
     "numProjectiles": 2,
     "arcGap": 9,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "98"
   },
   {
     "itemName": "Guts Sword",
@@ -3470,7 +3804,7 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Sword",
     "description": "Axe that was born in the most violent storms, it is possessed by terrifying power that can shapeshift realms.",
-    "rateOfFire": 0.9,
+    "rateOfFire": 0.95,
     "numProjectiles": 1,
     "equipStats": {
       "hp": 80
@@ -3489,7 +3823,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "69"
   },
   {
     "itemName": "Blade of the Grave",
@@ -3505,7 +3839,7 @@
       "dex": 4
     },
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "67"
   },
   {
     "itemName": "Poisonous Grasscutter",
@@ -3583,7 +3917,7 @@
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "96"
   },
   {
     "itemName": "Yumewatari",
@@ -3602,7 +3936,7 @@
     "rarity": "Untiered",
     "image": "/images/items/TransformationShard.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Small fragment of power of world building, it is only enough to change the appearance of your gear.",
     "equipStats": {}
   },
@@ -3715,7 +4049,7 @@
     "arcGap": 2,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "83"
   },
   {
     "itemName": "Cat Ears",
@@ -3759,6 +4093,7 @@
     "equipStats": {
       "hp": 60,
       "mp": 160,
+      "wis": 9,
       "atk": 18,
       "dex": 14,
       "def": 28
@@ -3774,8 +4109,9 @@
     "category": "Ring",
     "description": "Ring stolen from a higher ranking demon of Hell. Infuses the wearer with the power of demonic vitality.",
     "equipStats": {
-      "hp": 666,
-      "vit": 66,
+      "hp": 600,
+      "vit": 60,
+      "wis": -16,
       "def": 6
     },
     "fameBonus": 9,
@@ -4222,7 +4558,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DevilsStar1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Unholy mark that belongs to those who made a deal with the devil.",
     "equipStats": {}
   },
@@ -4231,7 +4567,7 @@
     "rarity": "Untiered",
     "image": "/images/items/UnholyWritings1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Contract with the devil written in blood.",
     "equipStats": {}
   },
@@ -4240,7 +4576,7 @@
     "rarity": "Untiered",
     "image": "/images/items/AncientStoneCross1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Emits a faint aura, this was probably used as a vessel to transfer power to stone statues.",
     "equipStats": {}
   },
@@ -4287,6 +4623,7 @@
     "description": "Valuable texts of those who chose the path of devil worship.",
     "equipStats": {
       "hp": -30,
+      "mp": 120,
       "atk": 8
     },
     "fameBonus": 5
@@ -4658,7 +4995,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CrackedIceHeart1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Very cold and shattered heart made out of thin ice.",
     "equipStats": {}
   },
@@ -4667,7 +5004,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RedCapeCloth1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Small piece of royal red cloth, it is common to see capes made out of this cloth in Ice Empress' army.",
     "equipStats": {}
   },
@@ -4676,7 +5013,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WinterArmorPlate1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Armor plate made out of cold resistant metal and ice.",
     "equipStats": {}
   },
@@ -4739,7 +5076,7 @@
     "rarity": "Untiered",
     "image": "/images/items/FusedIceCrystal1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "It's common that ice fuses with the crystals that grow inside crystal caves, when it happens, it creates very strong and stunning material.",
     "equipStats": {}
   },
@@ -4748,7 +5085,7 @@
     "rarity": "Untiered",
     "image": "/images/items/IcyLifeEssence1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Some magical substance that is found in all living creatures from Glacier Halls.",
     "equipStats": {}
   },
@@ -4757,7 +5094,7 @@
     "rarity": "Untiered",
     "image": "/images/items/YetisFur1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "White fur of a giant Snow Yeti. It's way warmer than any other animal's fur.",
     "equipStats": {}
   },
@@ -4845,12 +5182,11 @@
     "description": "A flawless crystal made out of purest and strongest ice magic. This one crystal was used to create a strong barrier around Empress' Castle to protect it.",
     "equipStats": {
       "hp": 100,
-      "mp": -75,
-      "spd": -15,
+      "spd": -10,
       "def": 50
     },
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "170"
   },
   {
     "itemName": "Gown of Eternal Frost",
@@ -4894,7 +5230,7 @@
     "arcGap": 15,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "79"
   },
   {
     "itemName": "Hunter's Chestplate",
@@ -5563,7 +5899,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CrownofOryx1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Crown of a dark emperor who lost his mind in search for power.",
     "equipStats": {}
   },
@@ -5572,7 +5908,7 @@
     "rarity": "Untiered",
     "image": "/images/items/OryxStatuette1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Shining statuette of Oryx made out of high quality gold.",
     "equipStats": {}
   },
@@ -5581,7 +5917,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WispofOryx1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Soul of a dark emperor filled with darkness and evil.",
     "equipStats": {}
   },
@@ -5633,7 +5969,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CorruptedSkull1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Cracked skull of Esben that was corrupted by the power of The Void.",
     "equipStats": {}
   },
@@ -5642,7 +5978,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CorruptedCrown1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Crown of a king whose mind was consumed by the Void.",
     "equipStats": {}
   },
@@ -5651,7 +5987,7 @@
     "rarity": "Untiered",
     "image": "/images/items/VoidPiece1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Element of pure evil and destruction found within The Void.",
     "equipStats": {}
   },
@@ -5660,7 +5996,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PrisonersDiary1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Book with writings of an unknown prisoner who was spending the rest of his life inside of Cultist Hideout's jail only to be consumed to create golem creatures.",
     "equipStats": {}
   },
@@ -5669,7 +6005,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrokenCuffs1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Very old cuffs with some blood of the prisoner who was trapped inside of Cultist Hideout.",
     "equipStats": {}
   },
@@ -5678,7 +6014,7 @@
     "rarity": "Untiered",
     "image": "/images/items/MoleksHorn1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Large and sharp horn of a demon champion from the Underworld.",
     "equipStats": {}
   },
@@ -5687,7 +6023,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CrusadersTorch1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Torch of a pathfinder who got lost in the marble halls.",
     "equipStats": {}
   },
@@ -5696,7 +6032,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BlobofGoo1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Green sticky and thick substance from a giant Grotto Blob collected in a bottle.",
     "equipStats": {}
   },
@@ -5705,7 +6041,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ColossalBracelet1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Large and heavy bracelet made out of marble.",
     "equipStats": {}
   },
@@ -5986,7 +6322,8 @@
     "equipStats": {
       "hp": 40,
       "mp": 40,
-      "vit": 7
+      "vit": 8,
+      "wis": 4
     },
     "fameBonus": 5
   },
@@ -6064,7 +6401,7 @@
     "equipStats": {
       "hp": 40,
       "mp": 40,
-      "dex": 4
+      "dex": 7
     },
     "fameBonus": 5
   },
@@ -6092,7 +6429,7 @@
     "category": "Ability/Skull",
     "description": "A horrendously debauched martyr's skull that has been brought to ruin by foul enchantments of the sulfurous realms.",
     "equipStats": {
-      "hp": 120,
+      "hp": 150,
       "mp": 40
     },
     "fameBonus": 5
@@ -6306,7 +6643,7 @@
       "def": 10
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "116"
   },
   {
     "itemName": "Staff of Unholy Sacrifice",
@@ -6320,7 +6657,7 @@
     "arcGap": 7,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "102"
   },
   {
     "itemName": "Gravel",
@@ -6342,7 +6679,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "87"
   },
   {
     "itemName": "Quiver of the Shadows",
@@ -6352,7 +6689,7 @@
     "category": "Ability/Quiver",
     "description": "A mysterious quiver formed of pure evil and dark matter. Its ethereal existence creates a small implosion of nearby atmosphere when drawn.",
     "numProjectiles": 5,
-    "arcGap": 6,
+    "arcGap": 3,
     "equipStats": {
       "hp": 80,
       "spd": 8,
@@ -6371,7 +6708,7 @@
     "equipStats": {
       "mp": 120,
       "spd": -10,
-      "wis": 14,
+      "wis": 20,
       "atk": 17,
       "def": 45
     },
@@ -6402,8 +6739,8 @@
     "category": "Ring",
     "description": "An unfathomable amount of strength pulses through this ring. Only the most righteous mortals can touch this ring and live.",
     "equipStats": {
-      "hp": 200,
-      "mp": 200,
+      "hp": 175,
+      "mp": 175,
       "spd": 7,
       "vit": 7,
       "wis": 7,
@@ -6412,7 +6749,7 @@
       "def": 7
     },
     "fameBonus": 9,
-    "itemEffect": "0"
+    "itemEffect": "164"
   },
   {
     "itemName": "Skull of Corrupted Souls",
@@ -6444,7 +6781,7 @@
       "def": 12
     },
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "137"
   },
   {
     "itemName": "Bloodshed Ring",
@@ -6488,7 +6825,7 @@
       "def": 12
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "129"
   },
   {
     "itemName": "Magical Lodestone",
@@ -6518,15 +6855,15 @@
       "atk": 10
     },
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "118"
   },
   {
-    "itemName": "Cultist Hideout Key",
+    "itemName": "Lost Halls Key",
     "rarity": "Untiered",
-    "image": "/images/items/CultistHideoutKey.png",
+    "image": "/images/items/LostHallsKey.png",
     "bagImage": null,
     "category": "Potion",
-    "description": "Opens a portal to the Cultist Hideout.",
+    "description": "Opens a portal to the Lost Halls.",
     "equipStats": {}
   },
   {
@@ -6539,12 +6876,12 @@
     "equipStats": {}
   },
   {
-    "itemName": "Lost Halls Key",
+    "itemName": "Cultist Hideout Key",
     "rarity": "Untiered",
-    "image": "/images/items/LostHallsKey.png",
+    "image": "/images/items/CultistHideoutKey.png",
     "bagImage": null,
     "category": "Potion",
-    "description": "A key which opens an entrance to the Lost Halls.",
+    "description": "A key which opens an entrance to the Cultist Hideout.",
     "equipStats": {}
   },
   {
@@ -6953,8 +7290,8 @@
     "category": "Ability/Prism",
     "description": "Blue crystal prism linked to the power source of Majestic Library that could turn back the time by the will of Librarian, granting the user great advantage over his enemies.",
     "equipStats": {
-      "spd": 8,
-      "wis": 14
+      "mp": 120,
+      "spd": 8
     },
     "fameBonus": 5
   },
@@ -7018,7 +7355,7 @@
     "category": "Ability/Tome",
     "description": "Unholy book of Bloodbrother that contains ancient symbols, reading the evil manuscripts inside may put a curse upon the user or bring them immense power.",
     "equipStats": {
-      "vit": 8,
+      "hp": 60,
       "atk": 8
     },
     "fameBonus": 5
@@ -7337,7 +7674,7 @@
     "rarity": "Untiered",
     "image": "/images/items/UndeadSpirit1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Spirit of all the Undead Gods that lives deep inside the Ancient Temple.",
     "equipStats": {}
   },
@@ -7346,7 +7683,7 @@
     "rarity": "Untiered",
     "image": "/images/items/LightningGodsRod1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Golden rod of godly power that can summon lightnings.",
     "equipStats": {}
   },
@@ -7355,7 +7692,7 @@
     "rarity": "Untiered",
     "image": "/images/items/LavaRock1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Very hard cracked stone with hot lava dripping out of it.",
     "equipStats": {}
   },
@@ -7364,7 +7701,7 @@
     "rarity": "Untiered",
     "image": "/images/items/AncientGoldenPedestal1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Golden Pedestal used for rituals to ask gods for help.",
     "equipStats": {}
   },
@@ -7373,7 +7710,7 @@
     "rarity": "Untiered",
     "image": "/images/items/MaskofAnubis1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Mask of ancient god who has left his sarcophagus in the Ancient Temple.",
     "equipStats": {}
   },
@@ -7382,7 +7719,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ScarabBeetle1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Scarab beetle from Egypt that is seen as ancient relic.",
     "equipStats": {}
   },
@@ -7391,7 +7728,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HealersRobe1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Clothing of Asclepius that upgrades his healing powers in multiple times.",
     "equipStats": {}
   },
@@ -7400,7 +7737,7 @@
     "rarity": "Untiered",
     "image": "/images/items/AncientCrystal1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Very old crystal that glows with ancient power that wants to be released.",
     "equipStats": {}
   },
@@ -7409,7 +7746,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HealingRodofMedicine1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A rod of asclepius that contains healing powers inside.",
     "equipStats": {}
   },
@@ -7418,7 +7755,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CrystalGeode1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A big stone containing worthy crystals inside.",
     "equipStats": {}
   },
@@ -7427,7 +7764,7 @@
     "rarity": "Untiered",
     "image": "/images/items/GoblinsPickaxe1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Almost broken iron pickaxe that has mined a lot of crystals.",
     "equipStats": {}
   },
@@ -7436,7 +7773,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Dynamite1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Explosive dynamite that goblins used to mine their caves.",
     "equipStats": {}
   },
@@ -7445,7 +7782,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DemonHorn1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Horn of Abaddon that is very sharp and is really strong.",
     "equipStats": {}
   },
@@ -7454,7 +7791,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DevilsWing1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Winged devil was slain only to use his wings for flight.",
     "equipStats": {}
   },
@@ -7463,7 +7800,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HellsEye1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "All-seeing eye that stares right into your soul.",
     "equipStats": {}
   },
@@ -7472,7 +7809,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ChampionsTrophy1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Golden trophy that was given to the champions of Colosseum for their victories.",
     "equipStats": {}
   },
@@ -7481,7 +7818,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RustedSpear1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Old weapon of gladiators that probably have slain a lot of opponents.",
     "equipStats": {}
   },
@@ -7490,7 +7827,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RustedHelmet1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Old helmet that was worn by the gladiators of Colosseum in the Rome.",
     "equipStats": {}
   },
@@ -7499,7 +7836,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ChaosEssence1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "The king of magic was able to fuse two different elements together creating a really scaring source of power.",
     "equipStats": {}
   },
@@ -7508,7 +7845,7 @@
     "rarity": "Untiered",
     "image": "/images/items/AlmightyCrystal1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Great source of power that was held by Magus.",
     "equipStats": {}
   },
@@ -7517,7 +7854,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RustedCrown1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A really old crown that was worn by the army leaders from Magic Castle.",
     "equipStats": {}
   },
@@ -7526,7 +7863,7 @@
     "rarity": "Untiered",
     "image": "/images/items/OrangeCrystals1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Magic crystals originally found in the Forest Hideout.",
     "equipStats": {}
   },
@@ -7535,7 +7872,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BottleofFireflies1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A bunch of fireflies in a bottle that glow with healing light.",
     "equipStats": {}
   },
@@ -7544,7 +7881,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrokenBranchDagger1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Broken dagger crafted from crystals and hard as steel wood.",
     "equipStats": {}
   },
@@ -7553,7 +7890,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RobotLaserTechnology1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Eye of a robot that is capable of creating long laser rays.",
     "equipStats": {}
   },
@@ -7562,7 +7899,7 @@
     "rarity": "Untiered",
     "image": "/images/items/OrangeSpaceFlower1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Orange flower that grows only in the caves of Planet Atrax.",
     "equipStats": {}
   },
@@ -7571,7 +7908,7 @@
     "rarity": "Untiered",
     "image": "/images/items/UFOCore1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Core of a UFO that glows with a lot of energy.",
     "equipStats": {}
   },
@@ -7580,7 +7917,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PathfindersCandle1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Candle of blue flames used by Pathfinder to find the intruders.",
     "equipStats": {}
   },
@@ -7589,7 +7926,7 @@
     "rarity": "Untiered",
     "image": "/images/items/AncientWritings1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A really old piece of paper with ancient symbols written on it, they brought power to the Librarian.",
     "equipStats": {}
   },
@@ -7598,7 +7935,7 @@
     "rarity": "Untiered",
     "image": "/images/items/LibraryBook1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A book with glowing letters found in the Majestic Library.",
     "equipStats": {}
   },
@@ -7607,7 +7944,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RobeofUndeadCultist1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Undead Skeletons wore this robe to look stronger.",
     "equipStats": {}
   },
@@ -7616,7 +7953,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrokenShovel1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Shovel previously used for digging graves or even cracking skeleton skulls.",
     "equipStats": {}
   },
@@ -7625,7 +7962,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SkullofUndead1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Flaming skull of an undead skeleton who has been resurrected by the Undead Lord.",
     "equipStats": {}
   },
@@ -7634,7 +7971,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SamuraisSpirit1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Heart of a real Samurai is always full of power because of their strong soul.",
     "equipStats": {}
   },
@@ -7643,7 +7980,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SmallDojoBanner1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "One of the japanese banners with some symbols on it.",
     "equipStats": {}
   },
@@ -7652,7 +7989,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CherryBlossomLeaves1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Leaves of a beautiful tree found in the Cloud Temple.",
     "equipStats": {}
   },
@@ -7661,7 +7998,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BlueTotemMask1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Blue mask that looks like an ancient bird taken off the Burning Totem.",
     "equipStats": {}
   },
@@ -7670,7 +8007,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EternalFlame1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Long time ago an overgrown forest was cursed by the gods to stay burning forever, the forest is now filled with eternal flames.",
     "equipStats": {}
   },
@@ -7679,7 +8016,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BurntSapling1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Previously a possible tree, now a burnt sapling.",
     "equipStats": {}
   },
@@ -7688,7 +8025,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SnowyRock1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "One of the many rocks from highest spot on the snowy mountains.",
     "equipStats": {}
   },
@@ -7697,7 +8034,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrokenBarbarianAxe1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Axe crafted at least 100 years ago, obviously it's already broken.",
     "equipStats": {}
   },
@@ -7706,7 +8043,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HelmoftheBarbarian1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Moutain barbarians wear those helmets all the time.",
     "equipStats": {}
   },
@@ -7715,7 +8052,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HornoftheBloodbrother1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Horn of Bloodbrother ripped of his skull.",
     "equipStats": {}
   },
@@ -7724,7 +8061,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DischargedBloodstone1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "One of the bloodstones that Bloodbrother have used for his rituals, the power that was previously within is now gone.",
     "equipStats": {}
   },
@@ -7733,7 +8070,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrokenBone1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Broken bone with some leftover blood on it that was found on floor in the Bloodbath.",
     "equipStats": {}
   },
@@ -7742,7 +8079,7 @@
     "rarity": "Untiered",
     "image": "/images/items/FloodedWater1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Water in the Flooded Caves is especially clear because it comes from underground.",
     "equipStats": {}
   },
@@ -7751,7 +8088,7 @@
     "rarity": "Untiered",
     "image": "/images/items/GlowingMushroom1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Purple mushroom that grows only in the Flooded Caves, it gives you hallucinations.",
     "equipStats": {}
   },
@@ -7760,7 +8097,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ShinyCrystal1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Light blue glowing crystal that shines lighter than anything in the Flooded Caves.",
     "equipStats": {}
   },
@@ -7769,7 +8106,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WilloftheRealm1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Slaying oryx is the biggest accomplishment of all realmers, the strength that leads all realmers is their will.",
     "equipStats": {}
   },
@@ -7778,7 +8115,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HeadofOryx1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Raw power of Oryx can still be felt within his helmet.",
     "equipStats": {}
   },
@@ -7787,7 +8124,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WineBarrel1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Mad god loves wine a lot, so he spends all of his time drinking wine in his Wine Cellar.",
     "equipStats": {}
   },
@@ -7796,7 +8133,7 @@
     "rarity": "Untiered",
     "image": "/images/items/KingsGem1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Green glowing gemstone from crown of the Forgotten King that granted him strength.",
     "equipStats": {}
   },
@@ -7805,7 +8142,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ShardofDarkMagic1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A big gemstone containing a lot of dark magic that was used by Shatters Archmage.",
     "equipStats": {}
   },
@@ -7814,7 +8151,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SentinelsHelmet1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Helmet of the bridge guardian of Shatters.",
     "equipStats": {}
   },
@@ -7823,7 +8160,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EyeofOsiris1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Golden eye found on most of ancient drawings.",
     "equipStats": {}
   },
@@ -7832,7 +8169,7 @@
     "rarity": "Untiered",
     "image": "/images/items/AncientAnkh1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Ankh that ancient gods held in their hands in ancient egypt.",
     "equipStats": {}
   },
@@ -7841,7 +8178,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PharaohsMask1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Mask of a sacrophagus shaped for ancient god Pharaoh.",
     "equipStats": {}
   },
@@ -7850,7 +8187,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DragonHorns1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Horns of an angry green dragon.",
     "equipStats": {}
   },
@@ -7859,7 +8196,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ObsidianShard1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A very strong shard fused from water and hot lava.",
     "equipStats": {}
   },
@@ -7868,7 +8205,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DragonsBreath1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Fire breath of a red fire dragon.",
     "equipStats": {}
   },
@@ -7877,7 +8214,7 @@
     "rarity": "Untiered",
     "image": "/images/items/MammothHorn1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Horn of an extinct mammal from long ago.",
     "equipStats": {}
   },
@@ -7886,7 +8223,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Snowball1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Some snow turned into a snowball used to throw into people.",
     "equipStats": {}
   },
@@ -7895,7 +8232,7 @@
     "rarity": "Untiered",
     "image": "/images/items/IceShard1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Very sharp shard of eternal ice.",
     "equipStats": {}
   },
@@ -7904,7 +8241,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Starfish1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A pink fish with a shape of a star found living under a rock.",
     "equipStats": {}
   },
@@ -7913,7 +8250,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Pearl1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Very shiny and rare pearl that glitters with healing light.",
     "equipStats": {}
   },
@@ -7922,7 +8259,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SeaShell1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Blue sea shell of a hermit found in the Ocean Trench.",
     "equipStats": {}
   },
@@ -7931,7 +8268,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SpiderEye1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Popped out eye of a venomous spider.",
     "equipStats": {}
   },
@@ -7940,7 +8277,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SpiderFang1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Fang of a huge spider, it still has some venom left on it.",
     "equipStats": {}
   },
@@ -7949,7 +8286,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PurpleSpiderEgg1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Purple unhatched egg of a poisonous mutant spider.",
     "equipStats": {}
   },
@@ -7958,7 +8295,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WoodlandFlower1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Beautiful pink flower that grows only in the Woodland Forest.",
     "equipStats": {}
   },
@@ -7967,7 +8304,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BigAcorn1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A really huge acorn that squirrels from the Woodland Forest threw at you.",
     "equipStats": {}
   },
@@ -7976,7 +8313,7 @@
     "rarity": "Untiered",
     "image": "/images/items/WoodlandFairyWings1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Wings of a great fairy from the Woodland Forest.",
     "equipStats": {}
   },
@@ -7985,7 +8322,7 @@
     "rarity": "Untiered",
     "image": "/images/items/GoldenDoubloon1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Pirates really like gold, so they have stolen a lot of doubloons throughout their adventures.",
     "equipStats": {}
   },
@@ -7994,7 +8331,7 @@
     "rarity": "Untiered",
     "image": "/images/items/GoldenPirateSkull1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "An emblem of pirates of the deadwater seas.",
     "equipStats": {}
   },
@@ -8003,7 +8340,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Bottle1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A full bottle of beer stolen by the pirates for their adventures.",
     "equipStats": {}
   },
@@ -8012,7 +8349,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ReactorCore1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Source of energy of all the robots made by Dr. Terrible.",
     "equipStats": {}
   },
@@ -8021,7 +8358,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RobotsHead1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Head of a robot with a big laser tech crafted by Dr. Terrible.",
     "equipStats": {}
   },
@@ -8030,7 +8367,7 @@
     "rarity": "Untiered",
     "image": "/images/items/RobotsArm1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Steel robotic arm of a mechanized robot made by one mad scientist.",
     "equipStats": {}
   },
@@ -8039,7 +8376,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Ectoplasm1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Weird jelly substance that all ghosts seem to be made out of.",
     "equipStats": {}
   },
@@ -8048,7 +8385,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ZombieBrain1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A real brain of a zombie that you have slain!",
     "equipStats": {}
   },
@@ -8057,7 +8394,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CemeteryCandle1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Candle that was helf by Grave Caretaker to light his way in the night.",
     "equipStats": {}
   },
@@ -8066,7 +8403,7 @@
     "rarity": "Untiered",
     "image": "/images/items/TheatreTicket1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Ticket used to get in the Theatre for a nice puppet show.",
     "equipStats": {}
   },
@@ -8075,7 +8412,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Doll1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Wooden girl doll found in the Pupper Theatre.",
     "equipStats": {}
   },
@@ -8084,7 +8421,7 @@
     "rarity": "Untiered",
     "image": "/images/items/JestersHat1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A hat of a really funny jester.",
     "equipStats": {}
   },
@@ -8093,7 +8430,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BloodVial1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Blood collected by the vampires that was supposed to be consumed by them.",
     "equipStats": {}
   },
@@ -8102,7 +8439,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BrokenGlass1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Pieces of the cracked stained glass.",
     "equipStats": {}
   },
@@ -8111,7 +8448,7 @@
     "rarity": "Untiered",
     "image": "/images/items/HolyCross1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A big wooden cross found in most churches to get rid of vampires.",
     "equipStats": {}
   },
@@ -8120,7 +8457,7 @@
     "rarity": "Untiered",
     "image": "/images/items/InfernoEssence1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Burning essence found in most Archdemons, it gives them their power.",
     "equipStats": {}
   },
@@ -8129,7 +8466,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DemonsFork1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A really small and sharp fork used by small imp's to terrorize people.",
     "equipStats": {}
   },
@@ -8138,7 +8475,7 @@
     "rarity": "Untiered",
     "image": "/images/items/DemonHorns1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Horns of a big demon who was unlucky to be slain by you.",
     "equipStats": {}
   },
@@ -8147,7 +8484,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PileofBones1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A lot of skeleton bones in one big pile.",
     "equipStats": {}
   },
@@ -8156,7 +8493,7 @@
     "rarity": "Untiered",
     "image": "/images/items/ReapersCloak1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Cloak taken off the Undead Lair reaper.",
     "equipStats": {}
   },
@@ -8165,7 +8502,7 @@
     "rarity": "Untiered",
     "image": "/images/items/GhostCandle1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Big candle with a blue ghostly flame.",
     "equipStats": {}
   },
@@ -8174,7 +8511,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SprinkledDonut1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A very sweet donut that was grown in the Candyland.",
     "equipStats": {}
   },
@@ -8183,7 +8520,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Gumballs1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Bunch of gumballs stolen from the gumball machine.",
     "equipStats": {}
   },
@@ -8192,7 +8529,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PeppermintCandies1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Some peppermint candies collected from the peppermint trees.",
     "equipStats": {}
   },
@@ -8201,7 +8538,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SpaceJunk1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Sprite World is located way above the realm and you can really find a bunch of space junk in there.",
     "equipStats": {}
   },
@@ -8210,7 +8547,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SpriteEssence1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A great essence of power that can be found in all sprite creatures.",
     "equipStats": {}
   },
@@ -8219,7 +8556,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Stars1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A bunch of stars found in the Sprite world, you cannot really hold them, but it doesn't stop you.",
     "equipStats": {}
   },
@@ -8228,7 +8565,7 @@
     "rarity": "Untiered",
     "image": "/images/items/CrackedSkull1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Skull of a basilisk that was cracked to be used for rituals.",
     "equipStats": {}
   },
@@ -8237,7 +8574,7 @@
     "rarity": "Untiered",
     "image": "/images/items/BoneSpear1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A sharp spear made out of bones and used by shamans to protect their villages.",
     "equipStats": {}
   },
@@ -8246,7 +8583,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Feathers1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A pile of feathers used by shamans of Forbidden Jungle.",
     "equipStats": {}
   },
@@ -8255,7 +8592,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SnakeBlood1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Royal snake blood of a snake queen.",
     "equipStats": {}
   },
@@ -8264,7 +8601,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SnakeSkin1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Snakes periodically drop their skin, and you collect it.",
     "equipStats": {}
   },
@@ -8273,7 +8610,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SnakeFang1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Big fang of a huge python.",
     "equipStats": {}
   },
@@ -8282,7 +8619,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SpiderPoison1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A small bit of deadly poison of a spider queen.",
     "equipStats": {}
   },
@@ -8291,7 +8628,7 @@
     "rarity": "Untiered",
     "image": "/images/items/SpiderEgg1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "An unhatched egg of a spider queen, be careful or else the spiders will be released.",
     "equipStats": {}
   },
@@ -8300,7 +8637,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Cobweb1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Web made by spiders from Spider Den.",
     "equipStats": {}
   },
@@ -8309,7 +8646,7 @@
     "rarity": "Untiered",
     "image": "/images/items/MothsWing1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Wing of a really big moth.",
     "equipStats": {}
   },
@@ -8318,7 +8655,7 @@
     "rarity": "Untiered",
     "image": "/images/items/JungleWeed1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Jungle weed that grows on trees after long period of time.",
     "equipStats": {}
   },
@@ -8327,7 +8664,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Leaves1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A pile of leaves collected from the Forest Maze.",
     "equipStats": {}
   },
@@ -8336,7 +8673,7 @@
     "rarity": "Untiered",
     "image": "/images/items/PiratesHat1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A nice hat worn by the pirates of the dead sea.",
     "equipStats": {}
   },
@@ -8345,7 +8682,7 @@
     "rarity": "Untiered",
     "image": "/images/items/EyePatch1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "Eye Patch used by the pirates who lost their eye.",
     "equipStats": {}
   },
@@ -8354,7 +8691,7 @@
     "rarity": "Untiered",
     "image": "/images/items/Cannonball1.png",
     "bagImage": "/images/LootBag13.png",
-    "category": "Potion",
+    "category": "Material",
     "description": "A giant cannonball used for destroying ships.",
     "equipStats": {}
   },
@@ -8824,9 +9161,10 @@
     "category": "Ability/Tome",
     "description": "Tome of the Cultist Leader who spent his entire life writing this book to give it to his followers so they could use the prohibited power to summon unseen beings.",
     "equipStats": {
-      "mp": 65,
-      "spd": 12,
-      "vit": 12
+      "hp": 60,
+      "mp": 60,
+      "spd": 10,
+      "vit": 10
     },
     "fameBonus": 7,
     "itemEffect": "5"
@@ -9322,9 +9660,9 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Staff",
     "description": "Knowledge is power. This staff holds power of all magic manuscripts of Majestic Library, it was used by The Librarian to create followers who would protect her.",
-    "rateOfFire": 1,
+    "rateOfFire": 0.85,
     "numProjectiles": 3,
-    "arcGap": 3,
+    "arcGap": 1,
     "equipStats": {},
     "fameBonus": 7,
     "itemEffect": "6"
@@ -9355,7 +9693,9 @@
     "category": "Ability/Prism",
     "description": "Prism found in the Cloud Temple of Sensei, he used this prism to quickly move from his Dojo to earth.",
     "equipStats": {
-      "atk": 10
+      "mp": 40,
+      "atk": 8,
+      "def": 6
     },
     "fameBonus": 5
   },
@@ -9491,10 +9831,10 @@
     "description": "Orb that holds ancient powers of hell, ready to be released upon the strongest of magic casters.",
     "equipStats": {
       "hp": 100,
-      "atk": 10
+      "vit": 10
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "7"
   },
   {
     "itemName": "Demon Slayer Axe",
@@ -9533,12 +9873,13 @@
     "category": "Ability/Quiver",
     "description": "This quiver is filled with King's magic powers, every single arrow drawn from this quiver will spread King's wrath on your enemies.",
     "numProjectiles": 3,
-    "arcGap": 10,
+    "arcGap": 20,
     "equipStats": {
+      "mp": 140,
       "atk": 14
     },
     "fameBonus": 7,
-    "itemEffect": "6"
+    "itemEffect": "120"
   },
   {
     "itemName": "Shuriken of Onslaught",
@@ -9568,7 +9909,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "106"
   },
   {
     "itemName": "Staff of Holy Terror",
@@ -9582,7 +9923,7 @@
     "arcGap": 3,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "100"
   },
   {
     "itemName": "Keeper's Breastplate",
@@ -9607,7 +9948,7 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Bow",
     "description": "Remains of the King of all Wizards were turned into a bow to be wielded by the strongest of human.",
-    "rateOfFire": 0.36,
+    "rateOfFire": 0.34,
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
@@ -9740,7 +10081,7 @@
     "arcGap": 5,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "93"
   },
   {
     "itemName": "Spiritual Staff",
@@ -9916,7 +10257,11 @@
     "description": "The most powerful tribesmen who used to rule the lands of the Realm one day got striked by Oryx's army, only few survived and they had to make a mask that would fear Oryx and defeat him.",
     "numProjectiles": 2,
     "arcGap": 9,
-    "equipStats": {},
+    "equipStats": {
+      "spd": 15,
+      "atk": 10,
+      "dex": 10
+    },
     "fameBonus": 7,
     "itemEffect": "4"
   },
@@ -10138,7 +10483,9 @@
     "category": "Ability/Tome",
     "description": "Evil book made out of demon flesh filled with mysterious manuscripts written by the beings from Underworld.",
     "equipStats": {
+      "hp": -50,
       "vit": 10,
+      "wis": 10,
       "atk": 10
     },
     "fameBonus": 7,
@@ -10206,10 +10553,10 @@
     "description": "Sharp blade of this katana has killed a lot of goblins, this deadly weapon was created only for one purpose.",
     "rateOfFire": 1,
     "numProjectiles": 2,
-    "arcGap": 20,
+    "arcGap": 10,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "89"
   },
   {
     "itemName": "Cavedigger's Amulet",
@@ -10606,7 +10953,7 @@
     "numProjectiles": 1,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "69"
   },
   {
     "itemName": "Reaper Key",
@@ -10687,7 +11034,7 @@
       "mp": 20
     },
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "85"
   },
   {
     "itemName": "Queen's Staff",
@@ -11211,10 +11558,10 @@
       "hp": 125,
       "vit": 10,
       "wis": 10,
-      "def": 45
+      "def": 30
     },
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "127"
   },
   {
     "itemName": "Terrible Acid",
@@ -11935,7 +12282,7 @@
     "fameBonus": 3
   },
   {
-    "itemName": "Hunter' Blade",
+    "itemName": "Hunter's Blade",
     "rarity": "Hunter Orange",
     "tier": 4,
     "image": "/images/items/HuntersBladeLevel4.png",
@@ -11947,7 +12294,7 @@
     "fameBonus": 7
   },
   {
-    "itemName": "Hunter' Blade",
+    "itemName": "Hunter's Blade",
     "rarity": "Hunter Orange",
     "tier": 3,
     "image": "/images/items/HuntersBladeLevel3.png",
@@ -11959,7 +12306,7 @@
     "fameBonus": 5
   },
   {
-    "itemName": "Hunter' Blade",
+    "itemName": "Hunter's Blade",
     "rarity": "Hunter Orange",
     "tier": 2,
     "image": "/images/items/HuntersBladeLevel2.png",
@@ -11971,7 +12318,7 @@
     "fameBonus": 4
   },
   {
-    "itemName": "Hunter' Blade",
+    "itemName": "Hunter's Blade",
     "rarity": "Hunter Orange",
     "tier": 1,
     "image": "/images/items/HuntersBladeLevel1.png",
@@ -12551,7 +12898,7 @@
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "96"
   },
   {
     "itemName": "Berserker's Shield",
@@ -12595,7 +12942,7 @@
     "rateOfFire": 1.35,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "104"
   },
   {
     "itemName": "Champion's Blade",
@@ -12623,8 +12970,8 @@
       "wis": -12,
       "atk": 12
     },
-    "fameBonus": 9,
-    "itemEffect": "7"
+    "fameBonus": 7,
+    "itemEffect": "139"
   },
   {
     "itemName": "Vanguard of Oryx",
@@ -12652,11 +12999,11 @@
     "category": "Ability/Seal",
     "description": "Godly seal of the strongest gladiator of all time, given to Oryx many years ago for being the most righteous.",
     "equipStats": {
-      "hp": 140,
-      "atk": 12,
+      "vit": 15,
+      "atk": 8,
       "dex": 8
     },
-    "fameBonus": 6,
+    "fameBonus": 7,
     "itemEffect": "5"
   },
   {
@@ -12669,8 +13016,8 @@
     "rateOfFire": 1.35,
     "numProjectiles": 1,
     "equipStats": {},
-    "fameBonus": 8,
-    "itemEffect": "3"
+    "fameBonus": 7,
+    "itemEffect": "110"
   },
   {
     "itemName": "Soldier's Cap",
@@ -12910,8 +13257,9 @@
     "category": "Ability/Skull",
     "description": "Skull powered with deadly essence that grants you the power of all undead beings.",
     "equipStats": {
-      "hp": 105,
-      "wis": 10
+      "hp": 95,
+      "spd": 4,
+      "wis": 8
     },
     "fameBonus": 5
   },
@@ -13001,7 +13349,7 @@
       "def": -10
     },
     "fameBonus": 7,
-    "itemEffect": "4"
+    "itemEffect": "168"
   },
   {
     "itemName": "Flask 'o' Fires",
@@ -13731,7 +14079,7 @@
       "dex": 4
     },
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "67"
   },
   {
     "itemName": "Burning Soul",
@@ -13884,13 +14232,13 @@
     "equipStats": {
       "hp": -60,
       "mp": -60,
-      "wis": 16,
-      "atk": 25,
-      "dex": 10,
-      "def": 18
+      "wis": 12,
+      "atk": 19,
+      "dex": 15,
+      "def": 21
     },
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "133"
   },
   {
     "itemName": "Chaotic Dagger",
@@ -13904,7 +14252,7 @@
     "arcGap": 10,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "77"
   },
   {
     "itemName": "Gemstone of Divinity",
@@ -13924,7 +14272,7 @@
       "def": 6
     },
     "fameBonus": 11,
-    "itemEffect": "5"
+    "itemEffect": "0"
   },
   {
     "itemName": "Garbs of Sun God",
@@ -13965,11 +14313,11 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Wand",
     "description": "As powerful as a thousand Suns, all of this power is more than enough to pierce the skies and smite your enemies with power of gods.",
-    "rateOfFire": 1.15,
+    "rateOfFire": 1.1,
     "numProjectiles": 2,
     "equipStats": {},
     "fameBonus": 8,
-    "itemEffect": "7"
+    "itemEffect": "111"
   },
   {
     "itemName": "Ring of Immortality",
@@ -13979,11 +14327,12 @@
     "category": "Ring",
     "description": "A ring that pulses with holy power that will light the way for you and will defeat the death itself.",
     "equipStats": {
-      "mp": 120,
+      "hp": 130,
+      "dex": 12,
       "def": 8
     },
     "fameBonus": 7,
-    "itemEffect": "5"
+    "itemEffect": "166"
   },
   {
     "itemName": "Robe of the Church",
@@ -14011,10 +14360,10 @@
     "description": "Holy Tome that was blessed by the Heavens. It is full of ancient runes and ancient egypt symbols, once spelled by a human, they get stronger in multiple times.",
     "equipStats": {
       "hp": 120,
-      "vit": 12
+      "def": 10
     },
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "124"
   },
   {
     "itemName": "Wand of The Heavens",
@@ -14077,7 +14426,7 @@
       "def": 10
     },
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "114"
   },
   {
     "itemName": "Knight's Warhammer",
@@ -14095,7 +14444,7 @@
       "def": 15
     },
     "fameBonus": 7,
-    "itemEffect": "7"
+    "itemEffect": "71"
   },
   {
     "itemName": "Siren's Song",
@@ -14121,9 +14470,8 @@
     "category": "Ability/Skull",
     "description": "You never knew who she actually was, her true identity will stay unknown forever...",
     "equipStats": {
-      "hp": 120,
-      "mp": 70,
-      "def": 10
+      "hp": 145,
+      "def": 11
     },
     "fameBonus": 7,
     "itemEffect": "3"
@@ -14135,12 +14483,12 @@
     "bagImage": "/images/LootBag13.png",
     "category": "Weapon/Staff",
     "description": "Till this day nobody knows who Siren is and how did she receive her strength, but we know one thing for sure, she uses music and her tears to create mysterious items.",
-    "rateOfFire": 1.5,
+    "rateOfFire": 1.4,
     "numProjectiles": 2,
     "arcGap": 9,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "0"
+    "itemEffect": "98"
   },
   {
     "itemName": "Blade of Tears",
@@ -14187,7 +14535,7 @@
       "def": 26
     },
     "fameBonus": 7,
-    "itemEffect": "6"
+    "itemEffect": "135"
   },
   {
     "itemName": "Helm of Bloodbrother",
@@ -14347,7 +14695,7 @@
       "wis": 10,
       "atk": 20
     },
-    "fameBonus": 9,
+    "fameBonus": 15,
     "itemEffect": "33"
   },
   {
@@ -14362,7 +14710,7 @@
     "arcGap": 10,
     "equipStats": {},
     "fameBonus": 7,
-    "itemEffect": "3"
+    "itemEffect": "75"
   },
   {
     "itemName": "Trap of Starhunters",
@@ -14525,8 +14873,9 @@
     "category": "Ability/Skull",
     "description": "A head of legendary champion who has fallen in fight with humans.",
     "equipStats": {
-      "vit": 6,
-      "def": 12
+      "hp": 55,
+      "atk": 6,
+      "def": 10
     },
     "fameBonus": 5
   },
@@ -14781,7 +15130,7 @@
     "fameBonus": 2
   },
   {
-    "itemName": "Hunter' Blade",
+    "itemName": "Hunter's Blade",
     "rarity": "Hunter Orange",
     "tier": 0,
     "image": "/images/items/HuntersBladeLevel0.png",

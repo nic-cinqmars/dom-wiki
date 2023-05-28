@@ -55,8 +55,16 @@ function App()
             let domItems = (items[category] as DOMItem[]);
 
             //Sort
-            const priority : string[] = ["Tiered", "Untiered", "Hunter Blue", "Hunter Orange", "Halloween Legendary", "Christmas Legendary", "Easter Legendary", "Legendary", "Demonic", "Angelic", "Cosmic"];
-            domItems.sort((a, b) => priority.indexOf(a.rarity) - priority.indexOf(b.rarity));
+            const rarityPriority : string[] = ["Tiered", "Untiered", "Hunter Blue", "Hunter Orange", "Halloween Legendary", "Christmas Legendary", "Easter Legendary", "Legendary", "Demonic", "Angelic", "Cosmic"];
+            domItems.sort((a, b) => {
+                let priority = rarityPriority.indexOf(a.rarity) - rarityPriority.indexOf(b.rarity);
+                if (priority === 0)
+                {
+                    if (a.tier !== undefined && b.tier !== undefined)
+                        priority = parseInt(a.tier) - parseInt(b.tier);
+                }
+                return priority;
+            });
 
             let rowItems: RowItemProps[] = [];
             domItems.map((item) =>
@@ -78,6 +86,9 @@ function App()
                 else
                     categories.push({category: subCategory, rowItems: subCategories, rowItemsType: "category"});
             });
+
+            const categoriesPriority : string[] = ["Weapon", "Ability", "Armor", "Ring", "Potion", "Material"];
+            categories.sort((a, b) => categoriesPriority.indexOf(a.category) - categoriesPriority.indexOf(b.category));
             return categories;
         }
     }
@@ -99,7 +110,7 @@ function App()
     return (
         <>
             <SideBar categories={sideBarCategories}/>
-            <div className="main-page">
+            <div className="ml-96">
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="Item/*" element={<ItemView/>}/>

@@ -104,7 +104,7 @@ function RecursiveCategory({category, rowItems, rowItemsType} : RecursiveCategor
 
     return (
         <div className="side-bar-category">
-            <button onClick={handleClick} className="side-bar-category-header">
+            <button onClick={handleClick} className="side-bar-category-header hover:bg-hover">
                 <FontAwesomeIcon icon="caret-right" className={open ? "category-caret down" : "category-caret"}/>
                 {category}
             </button>
